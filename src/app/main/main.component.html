@@ -1,0 +1,79 @@
+<table id="sudoku-grid-container">
+    <tbody>
+        <tr>
+            <td class="sub00 y0 x0" id="-0-0-">0</td>
+            <td class="sub00 y0 x1" id="-0-1-">0</td>
+            <td class="sub00 y0 x2" id="-0-2-">0</td>
+            <td class="sub01 y0 x3" id="-0-3-">0</td>
+            <td class="sub01 y0 x4" id="-0-4-">0</td>
+            <td class="sub01 y0 x5" id="-0-5-">0</td>
+        </tr>
+        <tr>
+            <td class="sub00 y1 x0" id="-1-0-">0</td>
+            <td class="sub00 y1 x1" id="-1-1-">0</td>
+            <td class="sub00 y1 x2" id="-1-2-">0</td>
+            <td class="sub01 y1 x3" id="-1-3-">0</td>
+            <td class="sub01 y1 x4" id="-1-4-">0</td>
+            <td class="sub01 y1 x5" id="-1-5-">0</td>
+        </tr>
+        <tr>
+            <td class="sub10 y2 x0" id="-2-0-">0</td>
+            <td class="sub10 y2 x1" id="-2-1-">0</td>
+            <td class="sub10 y2 x2" id="-2-2-">0</td>
+            <td class="sub11 y2 x3" id="-2-3-">0</td>
+            <td class="sub11 y2 x4" id="-2-4-">0</td>
+            <td class="sub11 y2 x5" id="-2-5-">0</td>
+        </tr>
+        <tr>
+            <td class="sub10 y3 x0" id="-3-0-">0</td>
+            <td class="sub10 y3 x1" id="-3-1-">0</td>
+            <td class="sub10 y3 x2" id="-3-2-">0</td>
+            <td class="sub11 y3 x3" id="-3-3-">0</td>
+            <td class="sub11 y3 x4" id="-3-4-">0</td>
+            <td class="sub11 y3 x5" id="-3-5-">0</td>
+        </tr>
+        <tr>
+            <td class="sub20 y4 x0" id="-4-0-">0</td>
+            <td class="sub20 y4 x1" id="-4-1-">0</td>
+            <td class="sub20 y4 x2" id="-4-2-">0</td>
+            <td class="sub21 y4 x3" id="-4-3-">0</td>
+            <td class="sub21 y4 x4" id="-4-4-">0</td>
+            <td class="sub21 y4 x5" id="-4-5-">0</td>
+        </tr>
+        <tr>
+            <td class="sub20 y5 x0" id="-5-0-">0</td>
+            <td class="sub20 y5 x1" id="-5-1-">0</td>
+            <td class="sub20 y5 x2" id="-5-2-">0</td>
+            <td class="sub21 y5 x3" id="-5-3-">0</td>
+            <td class="sub21 y5 x4" id="-5-4-">0</td>
+            <td class="sub21 y5 x5" id="-5-5-">0</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<button (click)="subs_coloring()" mat-raised-button class="firstRowBttns">
+    <span>subs</span>
+</button>
+<button (click)="rows_coloring()" mat-raised-button class="firstRowBttns">
+    <span>rows</span>
+</button>
+<button (click)="cols_coloring()" mat-raised-button class="firstRowBttns">
+    <span>cols</span>
+</button>
+<button (click)="null_coloring()" mat-raised-button class="firstRowBttns">
+    <span>[&nbsp;]</span>
+</button>
+
+<br>
+<br>
+
+<button (click)="input_fT_tFunc()" mat-raised-button class="secondRowBttns" id="generate-bttn">
+    <span>generate</span>
+</button>
+<button (click)="rerender_UI_state()" mat-raised-button class="secondRowBttns" id="solve-bttn">
+    <span>solve</span>
+</button>
+
+<br>

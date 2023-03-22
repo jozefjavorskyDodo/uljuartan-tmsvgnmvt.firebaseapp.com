@@ -1,0 +1,23 @@
+#sudoku-grid-container {
+    margin: 0 0 0 28mm;
+    box-shadow: 0 0 10cm 2cm rgb(61, 61, 61);
+}
+
+td {
+    border: solid 1mm rgba(122, 122, 122, 1);
+    border-radius: 2mm;
+    padding: 1mm 3mm 1mm 3mm;
+    color: rgba(0, 0, 0, 1);
+}
+
+.firstRowBttns {
+    margin: 0 0 0 1cm;
+}
+
+.secondRowBttns {
+    margin: 0 0 0 24mm;
+}
+
+#solve-bttn {
+    visibility: hidden;
+}
